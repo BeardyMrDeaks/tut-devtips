@@ -1,0 +1,31 @@
+{
+  "name": "sam-deacon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2",
+    "lodash": "^3.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeardyMrDeaks/tut-devtips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeardyMrDeaks/tut-devtips/issues"
+  },
+  "homepage": "https://github.com/BeardyMrDeaks/tut-devtips#readme"
+}

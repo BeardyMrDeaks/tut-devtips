@@ -12,7 +12,7 @@ github_username:  BeardyMrDeaks
 exclude: [node_modules, gulpfile.js]
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 sass:
     sass_dir: assets/css

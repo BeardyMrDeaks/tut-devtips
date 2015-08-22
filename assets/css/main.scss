@@ -3,19 +3,15 @@
 ---
 @charset "utf-8";
 
-body {
-  background-color: white;
-  padding: 10px;
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "0-tools/normalize",
         "0-tools/bourbon/bourbon",
         "3-layout/layout"
-
 ;
 
+@import "1-base/vars";
+@import "1-base/base";
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
