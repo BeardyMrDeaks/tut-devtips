@@ -3,6 +3,11 @@
 ---
 @charset "utf-8";
 
+body {
+  background-color: white;
+  padding: 10px;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "0-tools/normalize",
