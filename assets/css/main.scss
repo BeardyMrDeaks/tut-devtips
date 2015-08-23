@@ -3,15 +3,18 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// **SCSS** Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "0-tools/normalize",
         "0-tools/bourbon/bourbon",
-        "3-layout/layout"
-;
+        "0-tools/normalize",
+        "0-tools/fonts"
 
+;
+// **SSASS / CUSTOM**
 @import "1-base/vars";
 @import "1-base/base";
+@import "2-modules/header";
+@import "3-layout/home";
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -19,7 +22,6 @@
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
