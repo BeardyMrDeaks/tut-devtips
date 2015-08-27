@@ -6,15 +6,19 @@
 // **SCSS** Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "0-tools/bourbon/bourbon",
-        "0-tools/normalize",
-        "0-tools/fonts"
-
+        "0-tools/normalize"
 ;
+
+//@import "0-tools/fonts";
+//@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 // **SSASS / CUSTOM**
 @import "1-base/vars";
 @import "1-base/base";
-@import "2-modules/header";
-@import "3-layout/home";
+
+@import "3-sections/home-about";
+@import "3-sections/header";
+
+@import "4-layout/home";
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
