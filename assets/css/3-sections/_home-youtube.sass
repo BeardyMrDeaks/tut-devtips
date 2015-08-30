@@ -1,0 +1,92 @@
+section.youtube
+  background:
+    image: url(../img/youtube-bg.gif)
+    color: #e20a0a
+    position: center
+    size: cover
+  color: white
+
+
+
+  .home-cta
+    color: $youtubefont
+
+  .flex-video
+    box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5)
+    transform: scale(1.4)
+
+    @media (max-width: 985px)
+      transform: scale(1)
+
+    @media(max-width: 640px)
+      margin: 0 auto
+
+  .video-strip
+    position: absolute
+    top: 0
+    height: calc(100% + 100px)
+    width: 100%
+    margin: -50px 0
+    background:
+      image: url(../img/video-strip.png)
+      position: center 0px
+      repeat: repeat-y
+      size: 70%
+
+    @media (max-width: 640px)
+      display: none
+      margin: 0 auto
+
+  .container
+    min-width: 320px
+    min-height: 100px
+
+  .mycol
+    background: pink
+
+  .myvid
+    top: 0
+    margin: -50px 0
+    width: 100%
+    position: absolute
+    min-width: 320px
+    width: 100%
+    min-height: 100px
+    height: calc(100% + 100px)
+    background:
+      image: url(../img/video-strip.png)
+      position: center top
+      repeat: repeat-y
+      size: 70%
+
+    @media (max-width: 640px)
+      display: none
+      margin: 0 auto
+  .yovid
+    background:
+      image: url(../img/video-strip.png)
+      position: center 0px
+      repeat: repeat-y
+      size: 60%
+    height: calc(100% + 100px)
+    //color: transparent
+
+    @media (max-width: 640px)
+      display: none
+      margin: 0 auto
+
+  .col-1
+    position: relative
+    height: 380px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    @media (max-width: 640px)
+      height: auto
+      display: block
+      padding: 50px 20px
+      margin: 0 auto
+      
+      &:last-child
+        padding: 0px 20px 50px

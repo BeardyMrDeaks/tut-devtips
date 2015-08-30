@@ -16,8 +16,6 @@
   //flex classes //
   .flex
     display: flex
-    flex-direction: rows
-
 
   .flex--center
     justify-content: center
@@ -33,21 +31,20 @@
 //columns
 
 .col-1
-  max-width: 300px
+  width: 320px
   margin: 0 10px
-
-
-.col-2
-  max-width: 620px
-  margin: 0 10px
-  background: honeydew
-
-.col-50
-  width: 50%
+  box-sizing: border-box
 
 .push-right
   margin-left: 330px
 
+.col-2
+  max-width: 600px
+  margin: 0 10px
+  box-sizing: border-box
+
+.col-50
+  width: 50%
 
 @media (max-width: 640px)
   .home-sections .flex
@@ -67,3 +64,13 @@
 .home-lead
   font-size: 36px
   line-height: 1.1
+
+  &.outdented
+    text-indent: -0.7em
+
+@media (max-width: 640px)
+  .home-lead
+    text-align: center
+
+    &.outdented
+      text-indent: 0
